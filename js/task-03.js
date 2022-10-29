@@ -18,7 +18,7 @@ const gallery = document.querySelector('#gallery');
 function createHtml(images){
   let html = '';
   images.  forEach(image => {
-    html += `<li class="item"><img src=${image.url} alt="${image.alt}"></li>`
+    html += `<li class="item"><img src="${image.url}" alt="${image.alt}"></li>`
   });
   return html;
 }
